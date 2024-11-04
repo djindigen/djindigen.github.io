@@ -1,10 +1,79 @@
-<column-set gutter="1rem"><column-unit slot="0"><span class="title"><span style="--font-scale: 1.2;">DJINDIGARDEN</span><br>
-</span></column-unit></column-set><br>
-<br>
-<br>
-<media-item hash="D2024659233588983219990345110990" limit-by="height" scale="32.8rem" uses="drag"><column-set gutter="2" mobile-hide-empty="false" mobile-stack="false"><column-unit slot="0"></column-unit><column-unit slot="1"></column-unit></column-set></media-item><br>
-<br>
-<br>
-<br>
-<br>
-<column-set gutter="2" mobile-hide-empty="false" mobile-stack="false"><column-unit slot="0"><div style="text-align: left"><a href="aboutme_en" rel="history">Prefab</a></div></column-unit><column-unit slot="1"><div style="text-align: right"><a href="blogmain" rel="history">Next</a></div></column-unit></column-set>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJINDIGARDEN</title>
+    <!-- 设置页面图标 -->
+    <link rel="icon" href="test_1.jpg" type="image/x-icon">
+    <style>
+        /* 设置页面基本样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* 标题样式 */
+        .title {
+            font-size: 6rem; /* 放大5倍 */
+            text-align: center;
+            margin: 0;
+        }
+
+        /* 图片样式 */
+        .image-container {
+            width: auto;
+            height: 70vh; /* 高度占页面的70% */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .image-container img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        /* 底部链接样式 */
+        .footer {
+            position: fixed;
+            bottom: 1rem;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+            font-size: 1rem;
+            color: black;
+        }
+
+        .footer a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- 标题 -->
+    <div class="title">
+        <span>DJINDIGARDEN</span>
+    </div>
+
+    <!-- 图片容器 -->
+    <div class="image-container">
+        <img src="test_1.jpg" alt="Description of Image">
+    </div>
+
+    <!-- 底部链接 -->
+    <div class="footer">
+        <div><a href="preface.html" rel="history">Preface</a></div>
+        <div><a href="next.html" rel="history">Next</a></div>
+    </div>
+</body>
+</html>
